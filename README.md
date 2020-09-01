@@ -1,25 +1,20 @@
-# Savvy Coders Project Boilerplate Starter Kit
+# Savvy Coders Capstone Project Docs and Code
 
 ## Overview
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+This repository contains my Savvy Coders Web Devt Bootcamp Capstone project docs, code, visual studio code dependencies (as similar from Savvy Coders Boilerplate Starter Kit).
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
+## Capstone Project
 
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
+My short term goal is to build a single page web application that will be sign-up portal for volunteers at local parks' (hypothetical) gardening activities/events. As me and my daughter have been volunteering at at our nearby park's gardening events - this project will compliment a hobby, passion and be useful to local county parks volunteer admins, garden volunteers. Initially, this will be designed as a proof of concept (POC), hypothetical application than a deployble website but with a fully functional frontend, backend stacks.
 
-## Get Started
+Consequently, given my professional backgound in Middleware Administration - my long term goal in attending Savvy Coders Coding Bootcamp is to learn how to support web applications end to end.  Upon completion of the course, I will be able to look at web applications in the holistic sense, which will allow me to analyze, troubleshoot, and optimize in a more educated manner.  I'm  passionate about optimization and likes to be proactive vs. reactive in my admin-support methods.
 
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per [this guide...](https://www.notion.so/codefinity/Setting-up-a-Local-Dev-Environment-97de62a546f943fbbc7a246b4785a343)
+## Target Audience
+- This project will be useful to local county parks volunteer-admins, garden volunteers (regular, occassional), horticulture students.
+- This will compliment a hobby, passion recently ventured by me and my eldest daugther who is aiming to be a horticulturalist someday.
 
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), kindly [follow these girections](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) - essentially, there should be a button 👆🏾that says **Use this template.**
+## Frontend, Backend Stacks
 
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual. Once it's `clone`d to your local machine, kindly `cd` into the directory and **be sure to do:** `npm i` to get all of the goodies. If you see any _errors_ (warnings are 🙆🏾‍♂️) on Windows, you may have to do `npm install`.
-
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom right of your screen). You should install these. 👍🏾
-
-Update this README and make any other initial changes or 🌱 files, etc. Go ahead and do your usual `git` steps, etc. etc. etc.
-
-**Note:** This is a template repository, no need to 'fork it.
+Frontend: HTML, CSS, Javascript, ES6
+ Backend: Node.js, PostgreSQL
