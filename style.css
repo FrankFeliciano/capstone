@@ -1,0 +1,42 @@
+.headerBox {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex: 25px;
+  justify-content: space-around;
+  border-top: solid green;
+  border-right: solid green;
+  border-bottom: solid green;
+  border-left: solid green;
+  background-color: white;
+  padding-top: .5em;
+  padding-right: 2em;
+  padding-bottom: .5em;
+  padding-left: 2em;
+}
+
+body {
+    margin-top: 2em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    padding-top: .5em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    border-top: solid red;
+    border-right: solid red;
+    border-bottom: solid red;
+    border-left: solid red;
+    border-image: none;
+  }
+
+footer {
+    border-top: solid green;
+    border-right: solid green;
+    border-bottom: solid green;
+    border-left: solid green;
+    color: red;
+    margin: 0;
+    width: auto;
+}

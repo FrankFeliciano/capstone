@@ -1,0 +1,50 @@
+.top_head {
+  color: green;
+  text-align: center;
+}
+
+#ptext {
+    font-style: italic;
+    font-weight: bold;
+    color: navy
+}
+
+.mid_head {
+    color: navy;
+}
+
+#bot_head {
+    color: navy;
+}
+div {
+    background-color: rgba(255, 255, 128, .5);
+  }
+
+ol {
+    color: royalblue;
+    font-weight: bold;
+}
+
+body {
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    border-top: solid red;
+    border-right: solid red;
+    border-bottom: solid red;
+    border-left: solid red;
+    border-image: none;
+  }
+
+footer {
+    border-top: solid green;
+    border-right: solid green;
+    border-bottom: solid green;
+    border-left: solid green;
+    color: red
+}
