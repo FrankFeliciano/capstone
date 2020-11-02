@@ -1,38 +1,98 @@
-.headerBox {
-  max-width: 100%;
-  display: flex;
-  height: 100px;
-  border: 2px solid blue;
-  box-sizing: border-box;
-  flex-direction: row;
-}
-.headerImage01 {
-  flex: 1;
-  height: 100px;
-}
-.image02 {
-  flex: 1;
-  height: 100px;
- }
- .image03 {
-  flex: 1;
-  height: 100px;
- }
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
-div {
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+.headerBox {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: auto;
+    width: auto;
+}
+
+.imageProp01 {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 1rem;
-}
-
-img {
-  width: 100px;
-  padding: .5rem;
+  max-width: 100%;
+  height: 100px;
   flex: 1 1 auto;
 }
 
-@media screen and (max-width: 768px){
-  .headerBox{flex-direction: row}
+.button {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: .5rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+}
+
+#buttonHeader {
+  padding: 1.5rem;
+  text-align: center;
+  color: black;
+}
+
+.featuresContainer01 {
+  display: flex;
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+.onlineformBox {
+  flex: 1;
+  border: 1px solid blue;
+  padding: 1px;
+}
+
+.printformBox {
+  flex: 1;
+  border: 1px solid blue;
+  padding: 1px;
+}
+
+.volunteeredBox {
+  flex: 1;
+  border: 1px solid blue;
+  padding: 1px;  
+}
+
+.featuresContainer02 {
+  display: flex;
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+.parkinfoBox {
+  flex: 1;
+  border: 1px solid blue;
+  padding: 1px;  
+}
+
+.plantinfoBox {
+  flex: 1;
+  border: 1px solid blue;
+  padding: 1px;
+}
+
+.volunteerschedBox {
+  flex: 1;
+  border: 1px solid blue;
+  padding: 1px;
+}
+
+@media (min-width: 500px){
+  .headerBox {
+     display: flex;
+     height: 100%;
+     background-color: white;  
 }
 
 footer {
